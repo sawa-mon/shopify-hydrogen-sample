@@ -1,2 +1,2 @@
 # shopify-hydrogen-sample
-ShopifyHydrogen-Smaple
+ShopifyHydrogenSmaple
