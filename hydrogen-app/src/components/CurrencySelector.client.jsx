@@ -37,6 +37,7 @@ export default function CurrencySelector() {
                   Currency
                 </Listbox.Option>
                 {countries.map((country) => {
+
                   const isSelected =
                     country.isoCode === selectedCountry.isoCode;
                   return (

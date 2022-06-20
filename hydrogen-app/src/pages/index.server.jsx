@@ -17,7 +17,7 @@ export default function Index({country = {isoCode: 'US'}}) {
   return (
     <Layout hero={<GradientBackground />}>
       <div className="relative mb-12">
-        <Welcome />
+        {/* <Welcome /> */}
         <Suspense fallback={<BoxFallback />}>
           <FeaturedProductsBox country={country} />
         </Suspense>
@@ -60,7 +60,7 @@ function FeaturedProductsBox({country}) {
                 to={`/collections/${featuredProductsCollection.handle}`}
                 className="text-blue-600 hover:underline"
               >
-                Shop all
+                最新モデル商品一覧ページへ
               </Link>
             </span>
           </div>
@@ -76,7 +76,7 @@ function FeaturedProductsBox({country}) {
               to={`/collections/${featuredProductsCollection.handle}`}
               className="text-blue-600"
             >
-              Shop all
+              ショップ全商品
             </Link>
           </div>
         </>

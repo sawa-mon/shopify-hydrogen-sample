@@ -18,7 +18,7 @@ export default function FeaturedCollection({collection}) {
           to={`/collections/${collection.handle}`}
           className="inline-block bg-gray-900 text-white text-lg font-medium rounded-md py-4 px-16 uppercase"
         >
-          Shop Collection
+          {`${collection.title}商品一覧ページへ`}
         </Link>
       </div>
     </div>

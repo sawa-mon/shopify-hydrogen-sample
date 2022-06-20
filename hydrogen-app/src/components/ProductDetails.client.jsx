@@ -52,7 +52,7 @@ function AddToCartMarkup() {
         <Product.SelectedVariant.BuyNowButton
           className={BUTTON_SECONDARY_CLASSES}
         >
-          Buy it now
+          今すぐ買う
         </Product.SelectedVariant.BuyNowButton>
       )}
     </div>
@@ -66,12 +66,12 @@ function SizeChart() {
         className="text-xl text-black font-semibold mt-8 mb-4"
         id="size-chart"
       >
-        Size Chart
+        サイズチャート
       </h3>
       <table className="min-w-full table-fixed text-sm text-center bg-white">
         <thead>
           <tr className="bg-black text-white">
-            <th className="w-1/4 py-2 px-4 font-normal">Board Size</th>
+            <th className="w-1/4 py-2 px-4 font-normal">ボードサイズ</th>
             <th className="w-1/4 py-2 px-4 font-normal">154</th>
             <th className="w-1/4 py-2 px-4 font-normal">158</th>
           </tr>
@@ -156,7 +156,7 @@ export default function ProductDetails({product}) {
                       href="#size-chart"
                       className="block underline text-gray-500 text-sm tracking-wide my-4"
                     >
-                      Size Chart
+                      サイズチャート
                     </a>
                   ) : null;
                 }}
